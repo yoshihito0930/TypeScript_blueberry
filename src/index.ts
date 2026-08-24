@@ -1,4 +1,5 @@
 const greeting = "Hello, ";
-const text = greeting + "world!";
+const target = "World!";
+const text = greeting + target;
 
 console.log(text);
