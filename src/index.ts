@@ -1,4 +1,4 @@
-const ↑ = 0;
-const foo bar = 213;
+const greeting: string = "Hello, ";
+const target: string = "world!";
 
-console.log(技術評論社);
+console.log(greeting + target);
