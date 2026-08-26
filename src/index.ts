@@ -1,4 +1,4 @@
-const greeting: string = "Hello, ";
-const target: string = 123;
+let greeting: string = "Hello, ";
+let target: string = "world!";
 
 console.log(greeting + target);
