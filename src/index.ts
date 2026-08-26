@@ -1,4 +1,4 @@
 let greeting: string = "Hello, ";
-let target: string = "world!";
+greeting = greeting + "world!";
 
-console.log(greeting + target);
+console.log(greeting);
