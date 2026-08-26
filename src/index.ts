@@ -1,4 +1,6 @@
-let greeting: string, target: string;
-greeting = "Hello, "
+const width1 = 5;
+const width2 = 8;
+const height: number = 3;
+const area = (width1 + width2) * height / 2;
 
-console.log(greeting + target);
+console.log(area);
