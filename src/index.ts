@@ -1,4 +1,4 @@
-let greeting, target;
+let greeting: string, target: string;
 greeting = "Hello, "
 target = "world!"; 
 
