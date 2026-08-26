@@ -1,4 +1,4 @@
-const あいう = 123;
-const 技術評論社 = あいう + 876;
+const ↑ = 0;
+const foo bar = 213;
 
 console.log(技術評論社);
