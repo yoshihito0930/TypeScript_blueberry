@@ -1,3 +1,3 @@
-const million = 1_000_000;
+const bignum: bigint = (123n + 456n) * 2n;
 
-console.log(million);
+console.log(bignum);
