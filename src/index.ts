@@ -1,4 +1,4 @@
-const message: string = `Hello
-world!`;
+const str1: string = "Hello";
+const str2: string = "world!";
 
-console.log(message);
+console.log(`${str1}, ${str2}`);
