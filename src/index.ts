@@ -1,3 +1,4 @@
-const wrong = 100 + 5n;
+const str1: string = "Hello";
+const str2: string = 'world!';
 
-console.log(wrong);
+console.log(str1 + "," + str2);
