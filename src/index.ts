@@ -1,3 +1,3 @@
-const result = 5n / 2n;
+const wrong = 100 + 5n;
 
-console.log(result);
+console.log(wrong);
