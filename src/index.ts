@@ -1,1 +1,4 @@
-console.log("Hello \u{796d} world!");
+const no: boolean = false;
+const yes: boolean = true;
+
+console.log(yes, no);
