@@ -1,4 +1,4 @@
-const no: boolean = false;
-const yes: boolean = true;
+const val1 = null;
+const val2 = undefined;
 
-console.log(yes, no);
+console.log(val1, val2);
