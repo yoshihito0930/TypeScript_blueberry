@@ -1,11 +1,8 @@
-const num1 = Number(true);
-console.log(num1);
+const bigint1 = BigInt("1234");
+console.log(bigint1);
 
-const num2 = Number(false);
-console.log(num2);
+const bigint2 = BigInt(500);
+console.log(bigint2);
 
-const num3 = Number(null);
-console.log(num3);
-
-const num4 = Number(undefined);
-console.log(num4);
+const bigint3 = BigInt(true);
+console.log(bigint3);
