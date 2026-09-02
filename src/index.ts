@@ -1,9 +1,8 @@
-const str1 = String(1234.5);
-console.log(str1);
-
-const str2 = String(true);
-console.log(str2);
-
-const str3 = String(null);
-const str4 = String(undefined);
-console.log(str3, str4);
+console.log(Boolean(123));
+console.log(Boolean(0));
+console.log(Boolean(1n));
+console.log(Boolean(0n));
+console.log(Boolean(""));
+console.log(Boolean("foobar"));
+console.log(Boolean(null));
+console.log(Boolean(undefined));
