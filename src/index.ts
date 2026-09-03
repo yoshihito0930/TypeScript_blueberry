@@ -1,3 +1,3 @@
-const str: string = '123';
-
-console.log(123 * str);
+console.log(5 - 3 - 1);
+console.log((5 - 3) - 1);
+console.log(5 - (3 - 1));
