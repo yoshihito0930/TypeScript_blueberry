@@ -1,3 +1,3 @@
-const res1 = 5 - 1.86;
+const str: string = '123';
 
-const rest = 2n ** 5n
+console.log(123 * str);
