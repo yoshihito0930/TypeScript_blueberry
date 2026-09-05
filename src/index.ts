@@ -1,14 +1,7 @@
-import { createInterface } from 'readline';
+const input1 = "123", input2 = "";
 
-const rl = createInterface ({
-    input: process.stdin,
-    output: process.stdout
-});
+const input1isNotEmpty = !!input1;
+console.log(input1isNotEmpty);
 
-rl.question('数値を入力してください:', (line) => {
-    const num = Number(line);
-    if (!Number.isNaN(num)) {
-        console.log(num, "はNaNではありません");
-    }
-    rl.close();
-});
+const input2isNotEmpty = !!input2;
+console.log(input2isNotEmpty);
