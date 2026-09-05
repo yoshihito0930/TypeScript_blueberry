@@ -1,7 +1,12 @@
-const input1 = "123", input2 = "";
+import { createInterface } from 'readline';
 
-const input1isNotEmpty = !!input1;
-console.log(input1isNotEmpty);
+const rl = createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
-const input2isNotEmpty = !!input2;
-console.log(input2isNotEmpty);
+rl.question('名前を入力してください:', (name) => {
+    const displayName = name || "名無し";
+    console.log(`こんにちは、${displayName}さん`);
+    rl.close();
+});
