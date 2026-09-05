@@ -1,3 +1,3 @@
-console.log(5 - 3 - 1);
-console.log((5 - 3) - 1);
-console.log(5 - (3 - 1));
+const x = 123;
+const minusx = -x;
+console.log(minusx);
