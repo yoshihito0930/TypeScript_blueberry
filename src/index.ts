@@ -1,3 +1,2 @@
-const x = 123;
-const minusx = -x;
-console.log(minusx);
+const str: string = '123';
+console.log(+str * 100);
