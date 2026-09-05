@@ -1,4 +1,9 @@
-const str: any = "3";
+const t = true, f = false;
 
-console.log(str == 3);
-console.log(str === 3);
+console.log(t && t);
+console.log(t && f);
+console.log(f && f);
+
+console.log(t || t);
+console.log(t || f);
+console.log(f || f);
