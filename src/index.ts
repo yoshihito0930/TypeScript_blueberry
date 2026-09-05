@@ -1,5 +1,15 @@
-const left: number = 1;
-const right: number = 2;
+import { createInterface } from 'readline';
 
-console.log(left === right);
-console.log(left !== right);
+const rl = createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
+
+rl.question('パスワードを入力してください:', (password) => {
+    if (password === 'hogehoge') {
+        console.log('ようこそ！');
+    } else {
+        console.log('誰？');
+    }
+    rl.close();
+})
