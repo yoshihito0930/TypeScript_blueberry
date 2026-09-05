@@ -1,2 +1,5 @@
-const str: string = '123';
-console.log(+str * 100);
+let foo = 10;
+foo++;
+console.log(foo);
+--foo;
+console.log(foo);
