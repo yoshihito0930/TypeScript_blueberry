@@ -1,15 +1,4 @@
-import { createInterface } from 'readline';
+const str: any = "3";
 
-const rl = createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
-
-rl.question('パスワードを入力してください:', (password) => {
-    if (password === 'hogehoge') {
-        console.log('ようこそ！');
-    } else {
-        console.log('誰？');
-    }
-    rl.close();
-})
+console.log(str == 3);
+console.log(str === 3);
