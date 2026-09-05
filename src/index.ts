@@ -1,12 +1,3 @@
-import { createInterface } from 'readline';
+const secret = process.env.SECRET ?? "default";
 
-const rl = createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
-rl.question('名前を入力してください:', (name) => {
-    const displayName = name || "名無し";
-    console.log(`こんにちは、${displayName}さん`);
-    rl.close();
-});
+console.log(`secretは${secret}です`);
